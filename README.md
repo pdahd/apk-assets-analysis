@@ -1,14 +1,9 @@
-# APK Decompiled Text Analysis Project
+# APK Decompiled Text Analysis
 
-### Project Overview
-这个仓库包含从安卓 APK 中反编译出来的原始文本文件。
-由于文件内容较长且结构复杂（可能包含混淆代码、Base64 字符串或 XML 配置），本仓库旨在利用 Jules 进行自动化提炼。
+### 🎯 仓库定位
+用于存放安卓 APK 反编译得到的长文本文件，并利用 **Google Jules** 进行自动化信息提炼。
 
-### Analysis Goal
-1. **关键字段提取**：定位所有的 URL、API Endpoints 和硬编码的秘钥。
-2. **逻辑总结**：总结 `.txt` 或 `.xml` 文件中描述的核心业务逻辑。
-3. **格式化输出**：所有提取的结果请生成到 `output/` 文件夹下。
-
-### Input Files
-- 原始文件存放位置：根目录或子文件夹。
-- 文件特征：包含大量的 Android Manifest 配置或资源字符串。
+### 📑 操作指引
+- **任务规则**：请 Jules 优先参考本仓库的 [AGENTS.md](./AGENTS.md) 文件进行分析。
+- **文件存放**：反编译源码存放在根目录或各级子文件夹。
+- **输出位置**：分析结果统一输出至 `/output` 目录。
